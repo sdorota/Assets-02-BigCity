@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lusitana', serif;
+}
+@import "content1";
+@import "content2";
+@import "content3";
+@import "aside";
+
+@import "responsive";

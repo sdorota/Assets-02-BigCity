@@ -1,0 +1,29 @@
+section#content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    figure{
+    margin-top: 5%;
+    width: 90%;
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+    figcaption {
+        color: white;
+        font-weight: bold;
+        background-color: black;
+        border: 10px solid black;
+        width: 70%;
+        right: 5%;
+        bottom: 10%;
+        text-align: right;
+        position: relative;
+        font-family: 'Francois One', sans-serif;
+    }    
+
+}

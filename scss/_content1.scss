@@ -1,0 +1,44 @@
+#content1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    padding-top: 0;
+
+    h1 {
+        text-transform: uppercase;
+        text-align: end;
+        font-size: 1.8em;
+        background: #f3ce00;
+        border: 10px solid #f3ce00;
+        width: 41%;
+        position: absolute;
+        left: 20%;
+        font-family: 'Francois One', sans-serif;
+    }
+
+    article {
+         figure {
+        width: 50%;
+        float: left;
+        margin: 3% 3% 3% 0%;
+
+            img {
+            width: 100%;
+            }
+        }
+        h2 {
+            font-weight: bold;
+            font-size: 1.4em;
+            margin-top: 9%;
+            display: inline-block;
+            margin-bottom: 0;
+            }
+        p {
+            margin: 2% 11% 0% 6%;
+        }
+    }
+    
+
+    
+
+}

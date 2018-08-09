@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lusitana', serif; }
+
+#content1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  padding-top: 0; }
+  #content1 h1 {
+    text-transform: uppercase;
+    text-align: end;
+    font-size: 1.8em;
+    background: #f3ce00;
+    border: 10px solid #f3ce00;
+    width: 41%;
+    position: absolute;
+    left: 20%;
+    font-family: 'Francois One', sans-serif; }
+  #content1 article figure {
+    width: 50%;
+    float: left;
+    margin: 3% 3% 3% 0%; }
+    #content1 article figure img {
+      width: 100%; }
+  #content1 article h2 {
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: 9%;
+    display: inline-block;
+    margin-bottom: 0; }
+  #content1 article p {
+    margin: 2% 11% 0% 6%; }
+
+section#content2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end; }
+  section#content2 figure {
+    margin-top: 5%;
+    width: 90%; }
+    section#content2 figure img {
+      width: 100%; }
+  section#content2 figcaption {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border: 10px solid black;
+    width: 70%;
+    right: 5%;
+    bottom: 10%;
+    text-align: right;
+    position: relative;
+    font-family: 'Francois One', sans-serif; }
+
+section#content3 {
+  height: 20vh;
+  margin: 0 10%;
+  display: block; }
+  section#content3 h2 {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: left;
+    font-family: 'Francois One', sans-serif;
+    padding-bottom: 10px; }
+  section#content3 #about {
+    display: flex;
+    justify-content: center; }
+    section#content3 #about figure {
+      width: 150px;
+      float: left;
+      margin-right: 10px; }
+      section#content3 #about figure img {
+        max-width: 100%;
+        padding: 0; }
+    section#content3 #about h3 {
+      font-size: 2em;
+      font-family: 'Francois One', sans-serif; }
+    section#content3 #about p {
+      margin-top: 0;
+      padding-left: 5%;
+      padding-right: 5%;
+      text-align: justify; }
+    section#content3 #about #number {
+      font-size: 1.3em;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      border-left: 2px solid black;
+      padding-left: 5%;
+      align-self: center;
+      font-family: 'Francois One', sans-serif; }
+      section#content3 #about #number span {
+        font-size: 3em;
+        font-weight: bold; }
+  section#content3 button {
+    width: 200px;
+    height: 30px;
+    margin-top: 5%;
+    margin-right: 5%;
+    background-color: #f3ce00;
+    border: 1px solid #f3ce00;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Francois One', sans-serif; }
+
+aside div {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 30%;
+  right: 0;
+  width: 6%;
+  background-color: black; }
+  aside div a img {
+    background-color: black;
+    border: 5px solid black;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+
+@media all and (max-width: 992px) {
+  #content1 h1 {
+    font-size: 1.5em; }
+  #content2 figcaption {
+    font-size: 0.7em; }
+  #content3 .all-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    #content3 .all-btn .btn {
+      width: 150px; } }
+
+@media all and (max-width: 480px) {
+  #content1 h1 {
+    font-size: 1em;
+    width: 60%; }
+  #content1 h2 {
+    font-size: 1em; }
+  p {
+    margin-left: 12%; }
+  #content2 figure figcaption {
+    width: 100%;
+    font-size: 0.7em; }
+  aside div {
+    width: 45px; }
+  section#content3 {
+    flex-direction: column; }
+    section#content3 h2 {
+      text-align: center;
+      font-size: 1em; }
+    section#content3 #about {
+      flex-wrap: wrap; }
+      section#content3 #about h3 {
+        font-size: 1.1em; }
+      section#content3 #about p {
+        font-size: 0.8em; } }
